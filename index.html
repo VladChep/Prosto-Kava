@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,25 +9,163 @@
     <script src="https://kit.fontawesome.com/7bf6abf9ff.js" crossorigin="anonymous"></script>
     <title>Prosto-Kava</title>
 </head>
+
 <body>
+
     <header class="header">
         <div class="logo">
             <i class="fas fa-coffee logo__icon"></i>
-            <h2 class="logo__text">Prosto-Kava</h2>
+            <h1 class="logo__text">Prosto-Kava</h1>
         </div>
         <nav>
             <ul class="navigation">
                 <li>
-                    <a href="#features">Features</a>
+                    <a href="#features" class="nav-link">Features</a>
                 </li>
                 <li>
-                    <a href="#how_makes">How it makes?</a>
+                    <a href="#how_makes" class="nav-link">How it makes?</a>
                 </li>
                 <li>
-                    <a href="#pricing">Pricing</a>
+                    <a href="#pricing" class="nav-link">Pricing</a>
                 </li>
             </ul>
         </nav>
     </header>
+    
+    <main>
+
+        <div class="contact">
+            <h1>Everything ingenious is simple</h1>
+            <form action="https://www.freecodecamp.com/email-submit" id="form" GET>
+                <input type="email" id="email" placeholder="Enter your email address">
+                <input type="submit" id="submit" value="Get started">
+            </form>
+        </div>
+
+        <div class="features" id="features">
+            <div class="features-list">
+                <div class="features-item">
+                    <div class="features-item__img">
+                        <i class="fas fa-mug-hot"></i>
+                    </div>
+                    <div class="features-item__content">
+                        <div class="features-item__title">
+                            It’s sugar cookie season
+                        </div>
+                        <div class="features-item__subtitle">
+                            Our nondairy Sugar Cookie Almondmilk Latte tastes like the holidays. Delicious hot or iced.
+                        </div>
+                    </div>
+                </div>
+                <div class="features-item">
+                    <div class="features-item__img">
+                        <i class="fas fa-cookie-bite"></i>
+                    </div>
+                    <div class="features-item__content">
+                        <div class="features-item__title">
+                            Oh, so jolly
+                        </div>
+                        <div class="features-item__subtitle">
+                            Dressed in earmuffs and a scarf, this frosted Snowman Cookie is ready for fun.
+                        </div>
+                    </div>
+                </div>
+                <div class="features-item">
+                    <div class="features-item__img">
+                        <i class="fas fa-hamburger"></i>
+                    </div>
+                    <div class="features-item__content">
+                        <div class="features-item__title">
+                            Warm and hearty
+                        </div>
+                        <div class="features-item__subtitle">
+                            The Impossible™ Breakfast Sandwich will keep you going with an Impossible Sausage patty made
+                            from plants, egg and Cheddar.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="video" id="how_makes">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/iYIomquFhBU"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <div class="pricing" id="pricing">
+            <div class="pricing-list">
+                <div class="pricing-item">
+                    <div class="pricing-item__title">
+                        Americano
+                    </div>
+                    <div class="pricing-item__content">
+                        <div class="pricing-item__value">
+                            1$
+                        </div>
+                        <div class="pricing-item__list">
+                            <ul>
+                                <li>Water</li>
+                                <li>3 Shots</li>
+                                <li>Signature Espresso Roast</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="pricing-item">
+                    <div class="pricing-item__title">
+                        Cappuchino
+                    </div>
+                    <div class="pricing-item__content">
+                        <div class="pricing-item__value">
+                            2$
+                        </div>
+                        <div class="pricing-item__list">
+                            <ul>
+                                <li>2% Milk</li>
+                                <li>Regular Foam</li>
+                                <li>Steamed Hot</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="pricing-item">
+                    <div class="pricing-item__title">
+                        Latte
+                    </div>
+                    <div class="pricing-item__content">
+                        <div class="pricing-item__value">
+                            3$
+                        </div>
+                        <div class="pricing-item__list">
+                            <ul>
+                                <li>2% Milk</li>
+                                <li>Milk Foam</li>
+                                <li> Steamed Hot</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="footer">
+        <nav>
+            <ul class="navigation">
+                <li>
+                    <a href="#features" class="nav-link">Features</a>
+                </li>
+                <li>
+                    <a href="#how_makes" class="nav-link">How it makes?</a>
+                </li>
+                <li>
+                    <a href="#pricing" class="nav-link">Pricing</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="copy">
+            Copyright 2022, Original Prosto-Kava
+        </div>
+    </footer>
 </body>
+
 </html>
