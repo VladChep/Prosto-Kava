@@ -214,14 +214,16 @@ font-size: 18px;
 }
 
 @media screen and (max-width:480px) {
-    .features-item{
+    .features-item {
         flex-direction: column;
         text-align: center;
     }
+
     .pricing-list {
         display: flex;
         flex-direction: column;
     }
+
     .pricing-item__content {
         text-align: center;
     }
